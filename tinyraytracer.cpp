@@ -1,9 +1,12 @@
+#define _USE_MATH_DEFINES
+
 #include "geometry.h"
 
 #include <limits>
 #include <fstream>
 #include <vector>
 #include <algorithm>
+
 
 struct Light {
     vec3 position;
