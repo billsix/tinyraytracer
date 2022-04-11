@@ -25,3 +25,5 @@ file(GLOB SOURCES *.h *.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
+
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)
